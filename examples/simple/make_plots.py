@@ -114,7 +114,7 @@ def main():
     fig = plt.figure(dpi=100)
     ax = fig.add_subplot(111, projection='3d')
 
-    ax.plot(x, y, m, marker='.', linestyle="None")
+    ax.plot(x, y, m, marker='.', linestyle="None", color='y')
 
     # plot errorbars
     for i in np.arange(0, len(x)):
