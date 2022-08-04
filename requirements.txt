@@ -1,4 +1,27 @@
 pip install drmaa
+pip install weave
 
 https://pypi.org/project/drmaa/#:~:text=The%20path%20is%20typically%20%2Fvar,need%20access%20to%20the%20libdrmaa.
 
+---
+
+solution to drmaa:
+
+0. install drmaa
+https://pypi.org/project/drmaa/
+
+sudo apt install gridengine-drmaa-dev
+
+https://github.com/jemalloc/jemalloc/blob/dev/INSTALL.md
+--disable-initial-exec-tls
+
+https://svennd.be/blog/2022-03-23-install-sge-on-ubuntu20/
+
+1. unable to contact qmaster using port 6444 on host "hao3"
+https://askubuntu.com/questions/945267/cannot-use-qsub-unable-to-send-message-to-qmaster-using-port-6444
+
+2. global variable: setting on pycharm
+
+SGE_ROOT=/var/lib/gridengine;SGE_CELL=default
+
+3. sudo systemctl start mongod
